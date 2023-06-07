@@ -1,0 +1,7 @@
+Commit: Se utiliza para confirmar todos los cambios de un archivo realizado durante una transaccion.  En otras palabras representa una instantanea o version de los archivos modificados en un determinado punto en el tiempo.
+
+Fetch: Se  refiere a la accion de obtener los ultimos cambios y actualizaciones de un repositorio remoto sin fusionarlos automaticamente con tu rama actual. Tambien recupera cambios del repositorio remoto y los almacena en una rama separada llamada "origin/branch"(donde "branch" es el nombre de la rama en el repositorio remoto).
+
+Pull: Se obtienen los ultimos cambios y actualizaciones de un repositorio remoto y fusionandolos automaticamente con la rama actual. Es una forma conveniente de actualizar el repositorio local con los cambios realizados por otros colaboradores. (Es la combinacion de dos acciones: comando fetch y merge).
+
+Push: Sirve para enviar los cambios locales realizados en el repositorio local hacia un repositorio remoto. En otras palabras el comando push sincroniza el estado actual de la rama local con la rama correspondiente en el repositorio remoto.
